@@ -1,0 +1,19 @@
+pkgbase = open-interpreter
+	pkgdesc = An open-source implementation of OpenAI's Code Interpreter.
+	pkgver = 0.4.2
+	pkgrel = 1
+	url = https://github.com/KillianLucas/open-interpreter
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	provides = open-interpreter
+	conflicts = open-interpreter-git
+	conflicts = python-open-interpreter
+	replaces = python-open-interpreter
+	source = open-interpreter-0.4.2.tar.gz::https://files.pythonhosted.org/packages/source/o/open-interpreter/open-interpreter-0.4.2.tar.gz
+	sha256sums = 0499109ba3a63d755efb6f379c98ea69f0b71c3c2ec3770b9829dfc65ff03d29
+
+pkgname = open-interpreter
